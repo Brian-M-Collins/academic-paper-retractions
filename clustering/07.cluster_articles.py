@@ -3,7 +3,7 @@ import awswrangler as wr
 import pandas as pd
 
 from sklearn.metrics import silhouette_score
-from src.data_functions import get_clusterer, clustered_embeddings
+from data_functions import get_clusterer, clustered_embeddings
 
 # %%
 retracted_articles = pd.read_parquet(

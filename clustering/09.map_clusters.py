@@ -1,8 +1,8 @@
 # %%
 import pandas as pd
 
-from src.data_functions import *
-from src.plotting_functions import *
+from data_functions import *
+from plotting_functions import *
 
 # %%
 retracted_articles = pd.read_parquet(

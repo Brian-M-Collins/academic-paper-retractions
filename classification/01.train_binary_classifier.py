@@ -23,7 +23,7 @@ from transformers import (
     TrainingArguments,
 )
 
-from src.plotting_functions import plot_cm, roc_curve_plot
+from plotting_functions import plot_cm, roc_curve_plot
 
 # %%
 retracted_articles = pd.read_parquet(
