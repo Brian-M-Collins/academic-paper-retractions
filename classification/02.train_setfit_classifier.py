@@ -12,7 +12,7 @@ from transformers import AutoTokenizer
 from setfit import SetFitModel, SetFitTrainer
 from sentence_transformers.losses import CosineSimilarityLoss
 
-from src.plotting_functions import plot_cm, roc_curve_plot
+from plotting_functions import plot_cm, roc_curve_plot
 
 # %%
 dataset = load_dataset("Brian-M-Collins/retracted_articles")
